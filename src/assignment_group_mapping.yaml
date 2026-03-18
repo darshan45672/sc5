@@ -1,0 +1,14 @@
+meta:
+  description: 'Assignment group mapping: GLPI -> sys_id '
+  version: '1.0'
+assignment_group_mappings:
+- glpi_group: I-SC5-NO-SSODB*
+  servicenow_group: b51635b3dbdc2850ffaf174b069619b1
+  description: Database team
+- glpi_group: I-SC5-NO-SSOLNX*
+  servicenow_group: 4cd38185c3aa2a50e45b3a02b4013176
+  description: Linux team
+- glpi_group: I-SC5-NO-SSOWIN*
+  servicenow_group: c9e2cd41c3aa2a50e45b3a02b40131d2
+  description: Windows team
+  
